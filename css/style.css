@@ -45,7 +45,7 @@ ul.my-item-space li:hover {
     padding: 100px 0 100px 0;
 }
 
-.top-section .my-button-back {
+.my-button-back {
     background: linear-gradient(to left, #A4BC46 100%, #85A019 100%);
     font-weight: 500;
     cursor: pointer;
@@ -69,6 +69,30 @@ ul.my-item-space li:hover {
     margin-top: -85px;
 }
 
+/* end top-section */
+/* Start product-section */
+section.container>h1 {
+    color: #363958;
+}
+
+.jacket-info h3 {
+    color: #363958;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.jacket-info p {
+    color: #3E3E3E;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.buttom-item:hover {
+    background-color: lightslategray;
+}
+
+
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -85,6 +109,15 @@ ul.my-item-space li:hover {
     }
 
 
+    /* .woman-jacket,
+    .man-jacket {
+        display: flex;
+        flex-wrap: wrap;
+    } */
+
+    .buttom-bannar {
+        margin-top: 40px;
+    }
 }
 
 /* ipad air */
